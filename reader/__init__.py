@@ -12,7 +12,7 @@ from configparser import ConfigParser
 from importlib import resources
 
 # Version of realpython-reader package
-__version__ = "1.0.0"
+__version__ = "0.1.0"
 
 # Read URL of feed from config file
 cfg = ConfigParser()
