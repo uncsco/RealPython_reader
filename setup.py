@@ -6,6 +6,9 @@ import pathlib
 # Third party imports
 from setuptools import setup
 
+from reader import __version__
+
+
 # The directory containing this file
 HERE = pathlib.Path(__file__).resolve().parent
 
@@ -15,7 +18,7 @@ README = (HERE / "README.md").read_text()
 # This call to setup() does all the work
 setup(
     name="reader_pn",
-    version="0.1.5",
+    version=__version__,
     description="My description",
     long_description=README,
     long_description_content_type="text/markdown",
