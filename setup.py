@@ -34,5 +34,9 @@ setup(
     packages=["reader"],
     include_package_data=True,
     install_requires=[],
+    extras_require={
+        #"test": ["pytest"],
+        "rich": ["rich"],
+    },
     entry_points={"console_scripts": ["realpython=reader.__main__:main"]},
 )
