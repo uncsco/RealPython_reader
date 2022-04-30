@@ -14,8 +14,8 @@ README = (HERE / "README.md").read_text()
 
 # This call to setup() does all the work
 setup(
-    name="realpython-reader-wip",
-    version="0.1.4",
+    name="reader_pn",
+    version="0.1.5",
     description="My description",
     long_description=README,
     long_description_content_type="text/markdown",
