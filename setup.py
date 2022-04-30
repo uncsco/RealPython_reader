@@ -15,7 +15,7 @@ README = (HERE / "README.md").read_text()
 # This call to setup() does all the work
 setup(
     name="realpython-reader-wip",
-    version="0.1.3",
+    version="0.1.4",
     description="My description",
     long_description=README,
     long_description_content_type="text/markdown",
@@ -30,6 +30,6 @@ setup(
     ],
     packages=["reader"],
     include_package_data=True,
-    install_requires=["feedparser", "html2text"],
+    install_requires=[],
     entry_points={"console_scripts": ["realpython=reader.__main__:main"]},
 )
