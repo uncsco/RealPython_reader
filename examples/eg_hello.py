@@ -1,4 +1,4 @@
-import reader
+import my_lib
 
-print(reader.__version__)
-print(reader.hello('Bob'))
+print(my_lib.__version__)
+print(my_lib.hello('Bob'))

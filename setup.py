@@ -1,12 +1,8 @@
-"""Setup script for realpython-reader"""
-
-# Standard library imports
+"""Setup script..."""
 import pathlib
-
-# Third party imports
 from setuptools import setup
 
-from reader import __version__
+from my_lib import __version__
 
 
 # The directory containing this file
@@ -17,7 +13,7 @@ README = (HERE / "README.md").read_text()
 
 # This call to setup() does all the work
 setup(
-    name="reader_pn",
+    name="my_lib_wip",
     version=__version__,
     description="My description",
     long_description=README,
@@ -31,12 +27,12 @@ setup(
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
     ],
-    packages=["reader"],
+    packages=["my_lib"],
     include_package_data=True,
     install_requires=[],
     extras_require={
         #"test": ["pytest"],
         "rich": ["rich"],
     },
-    entry_points={"console_scripts": ["realpython=reader.__main__:main"]},
+    #entry_points={"console_scripts": ["realpython=reader.__main__:main"]},
 )
