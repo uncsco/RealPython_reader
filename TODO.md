@@ -1,11 +1,11 @@
 - [.] // `test_examples.py`
 
-- [ ] Define DEFAULT 'plug-ins': `do_filter()`, etc
-    - [ ] example of usage: **redefinition** - (pass a method)
+- [x] Define DEFAULT 'plug-ins': `do_filter()`, etc
+    - [x] example of usage: **redefinition** - (pass a method)
 
     - [ ] `mypy`
 
-- [ ] `from_csv` etc - see `DMP`
+- [x] `from_csv` etc - see `DMP`
 
 ----
 
