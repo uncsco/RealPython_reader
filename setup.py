@@ -34,5 +34,7 @@ setup(
         #"test": ["pytest"],
         "rich": ["rich"],
     },
-    #entry_points={"console_scripts": ["realpython=reader.__main__:main"]},
+    entry_points={
+        "console_scripts": ["mypkg=my_lib.__main__:main"],
+    },
 )
