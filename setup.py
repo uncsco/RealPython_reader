@@ -2,7 +2,7 @@
 import pathlib
 from setuptools import setup
 
-from my_lib import __version__
+from mypkg import __version__
 
 
 # The directory containing this file
