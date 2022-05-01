@@ -45,7 +45,7 @@ Version:
 import sys
 
 #from my_lib import *  #// OKAY
-from . import  #// re: __init__.py
+from . import * #// re: __init__.py
 
 def main() -> None:
     """Read the Real Python article feed."""
