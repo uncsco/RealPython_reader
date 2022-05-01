@@ -6,12 +6,15 @@
 
 ----
 
+- [ ] `mkdocs material`
+  
+----
+
 - [ ] `run.sh` - test, mypy
 
 ----
 
 - [x] RENAME `my_lib` to **`mypkg`**
-
 
 ----
 
