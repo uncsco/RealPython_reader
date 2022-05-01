@@ -1,6 +1,17 @@
+- [ ] ?? pytest`mypkg.examples`
+
+- [ ] Define DEFAULT 'plug-ins': `do_filter()`, etc
+- [ ] `mypy`
+- [ ] `from_csv` etc - see `DMP`
+
+----
+
+- [ ] `run.sh` - test, mypy
+
+----
 
 - [x] RENAME `my_lib` to **`mypkg`**
-- [ ] ?? `mypkg.examples`
+
 
 ----
 
