@@ -4,4 +4,5 @@ from . import hello
 from . import rich
 
 from .std import csv
+from .std import dict_
 from .std import path
