@@ -27,7 +27,10 @@ setup(
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
     ],
-    packages=["mypkg"],
+    packages=[
+        'mypkg',
+        'mypkg.std'
+    ],
     include_package_data=True,
     install_requires=[],
     extras_require={
