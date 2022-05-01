@@ -1,4 +1,4 @@
-- [ ] ?? pytest`mypkg.examples`
+- [.] // `test_examples.py`
 
 - [ ] Define DEFAULT 'plug-ins': `do_filter()`, etc
 - [ ] `mypy`

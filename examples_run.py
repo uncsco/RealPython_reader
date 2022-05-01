@@ -1,5 +1,5 @@
-#import examples.eg_hello
-#import examples.eg_rich
+#import examples.hello
+#import examples.rich
 
 #import examples.std.csv
 
