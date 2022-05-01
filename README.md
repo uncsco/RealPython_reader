@@ -7,6 +7,12 @@ language = "python3"
 run = "python3 examples_run.py"
 ```
 
+## Installation
+
+- See `install_pkg.sh`
+
+## Run
+
 - Run CLI (`__main__.py`)
 
 ```sh
