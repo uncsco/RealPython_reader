@@ -44,7 +44,7 @@ Version:
 """
 import sys
 
-#from my_lib import *  #// OKAY
+#from mypkg import *  #// OKAY
 from . import * #// re: __init__.py
 
 def main() -> None:

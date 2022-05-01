@@ -1,5 +1,5 @@
 
-- [ ] RENAME to `my_lib` to **`mypkg`**
+- [x] RENAME to `my_lib` to **`mypkg`**
 - [ ] ?? `mypkg.examples`
 
 ----

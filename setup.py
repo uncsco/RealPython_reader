@@ -13,7 +13,7 @@ README = (HERE / "README.md").read_text()
 
 # This call to setup() does all the work
 setup(
-    name="my_lib_wip",
+    name="mypkg_wip",
     version=__version__,
     description="My description",
     long_description=README,
@@ -27,7 +27,7 @@ setup(
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
     ],
-    packages=["my_lib"],
+    packages=["mypkg"],
     include_package_data=True,
     install_requires=[],
     extras_require={

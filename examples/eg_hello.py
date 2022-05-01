@@ -1,4 +1,4 @@
-import my_lib
+import mypkg
 
-print(my_lib.__version__)
-print(my_lib.hello('Bob'))
+print(mypkg.__version__)
+print(mypkg.hello('Bob'))

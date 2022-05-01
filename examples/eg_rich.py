@@ -1,4 +1,4 @@
-from my_lib.rich import *
+from mypkg.rich import *
 
 #// https://rich.readthedocs.io/en/stable/console.html?highlight=print_json#printing
 rprint("[blue underline]Looks like a link")
