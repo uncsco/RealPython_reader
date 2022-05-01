@@ -37,8 +37,8 @@ setup(
     extras_require={
         #"test": ["pytest"],
         "rich": ["rich"],
-        #// https://stackoverflow.com/a/60517114
-        "dataclasses": ["dataclasses"],
+        #// `python_version`: https://stackoverflow.com/a/60517114
+        "dataclasses": ["dataclasses; python_version < '3.7'"],
         "excel": ["openpyxl"],
     },
     entry_points={
