@@ -27,6 +27,7 @@ setup(
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
     ],
+    python_requires=">=3.6", #
     packages=[
         'mypkg',
         'mypkg.std'
@@ -37,7 +38,8 @@ setup(
         #"test": ["pytest"],
         "rich": ["rich"],
         #// https://stackoverflow.com/a/60517114
-        "dataclasses": ["dataclasses; python_version < '3.7'"]
+        "dataclasses": ["dataclasses"],
+        "excel": ["openpyxl"],
     },
     entry_points={
         "console_scripts": ["mypkg=my_lib.__main__:main"],
