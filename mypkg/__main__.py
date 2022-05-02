@@ -44,8 +44,8 @@ Version:
 """
 import sys
 
-#from mypkg import *  #// OKAY
-from . import * #// re: __init__.py
+#from mypkg import hello  #// OKAY
+from . import hello #// re: __init__.py
 
 def main() -> None:
     """Read the Real Python article feed."""
@@ -53,7 +53,7 @@ def main() -> None:
     opts = [o for o in sys.argv[1:] if o.startswith("-")]
     print(args)
     print(opts)
-    print(hello('Adam'))
+    print(hello.hello('Adam'))
 
     # Show help message
     if "-h" in opts or "--help" in opts:
