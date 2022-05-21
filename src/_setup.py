@@ -1,0 +1,1 @@
+from .mypkg import __version__

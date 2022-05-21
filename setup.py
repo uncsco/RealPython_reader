@@ -2,7 +2,7 @@
 import pathlib
 from setuptools import setup
 
-from src.mypkg import __version__  #// SRC_dir
+from src._setup import __version__  #// SRC_dir
 
 
 # The directory containing this file
