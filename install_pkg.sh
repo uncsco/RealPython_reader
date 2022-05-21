@@ -4,7 +4,7 @@ PIP=${PY_M}poetry
 
 #NAME=realpython-reader-wip
 #NAME=reader-pn
-NAME=my-lib-wip
+NAME=mypkg-wip
 REPO=https://github.com/uncsco/RealPython_reader.git
 
 BRANCH=pn-wip
@@ -30,6 +30,8 @@ _EXTRAS_=[${EXTRAS}]
 #// `#egg=...[...]`: https://stackoverflow.com/q/30239152
 ###################
 #$PIP install git+${REPO}${_REV}#egg=${NAME}${_EXTRAS_}
+#             git+https://github.com/uncsco/RealPython_reader.git@pn-wip#egg=mypkg-wip
+#                                                                 ====== =============
 
 #$PIP uninstall $NAME
 
