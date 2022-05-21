@@ -42,6 +42,6 @@ setup(
         "excel": ["openpyxl"],
     },
     entry_points={
-        "console_scripts": ["mypkg=my_lib.__main__:main"],
+        "console_scripts": ["mypkg=mypkg.__main__:main"],
     },
 )
