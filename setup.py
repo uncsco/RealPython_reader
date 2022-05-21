@@ -2,7 +2,7 @@
 import pathlib
 from setuptools import setup
 
-from mypkg import __version__
+from src.mypkg import __version__  #// SRC_dir
 
 
 # The directory containing this file
@@ -28,6 +28,7 @@ setup(
         "Programming Language :: Python :: 3",
     ],
     python_requires=">=3.6", #
+    package_dir={'':'src'}, #// SRC_dir https://stackoverflow.com/a/14421176
     packages=[
         'mypkg',
         'mypkg.std'
